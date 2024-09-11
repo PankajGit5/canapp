@@ -1,6 +1,12 @@
 body {
     font-family: "Axiforma", sans-serif;
   }
+  .icon-img {
+    width: 45px; /* Adjust the size as needed */
+    height: auto;
+    margin-right: 8px; /* Space between the image and the text */
+  }
+  
   .mini-card {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
       rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
