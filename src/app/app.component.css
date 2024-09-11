@@ -1,3 +1,6 @@
+body {
+  font-family: "Axiforma", sans-serif;
+}
 .mini-card {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
     rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
@@ -46,10 +49,13 @@ p {
 
 .list-unstyled li a {
   color: #727271;
+  font-size: 14px;
+  font-weight: 500;
 }
 .li-head {
   color: #7b0fff;
   font-weight: 600;
+  letter-spacing: 1px;
 }
 .libord {
   color: #727271;
@@ -68,12 +74,29 @@ small {
 .nomal {
   border-right: 1px solid #727271;
 }
-
+.btn-start {
+  background-color: #fff;
+  color: #0000;
+  font-weight: 500;
+  padding: 7px 27px;
+}
+.btn-same {
+  background-color: #8d3660;
+  color: #d7d7d7;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 7px 18px;
+}
+.fw-un{
+  font-weight: 550;
+}
 /* header start*/
 .header a {
   color: #7b0fff;
   font-weight: 500;
 }
+
 .btn-prime {
   border: 1px solid #7b0fff;
   border-radius: 9px;
@@ -81,8 +104,62 @@ small {
 }
 /* header end  */
 
+details {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+}
 
+summary {
+  padding: 18px;
+  /* background-color: #f0f0f0; */
+  cursor: pointer;
+  position: relative;
+  list-style: none;
+}
 
+summary::-webkit-details-marker {
+  display: none;
+}
+
+summary::after {
+  content: "▼";
+  position: absolute;
+  right: 10px;
+  transition: transform 0.3s ease;
+}
+
+details[open] summary::after {
+  transform: rotate(180deg);
+}
+
+.content {
+  /* background-color: #fff; */
+  border-top: 1px solid #ccc;
+  padding: 16px;
+  overflow: hidden;
+  transition: height 0.3s ease-out;
+}
+
+.accord {
+  background-color: #f9f8ff;
+  border: 1px solid #CBCBCB;
+  border-radius: 12px 12px;
+  padding: 22px;
+}
+
+.main-banner {
+  background-image: url(../main.jpg);
+  background-size: cover; /* This ensures the image covers the entire banner */
+  background-position: right;
+  width: 100%;
+  height: 78vh; /* Full height of the viewport */
+  margin: 0;
+  padding: 0;
+  border-radius: 9px;
+  background-repeat: no-repeat;
+}
 
 .carousel img {
   width: 70px;
