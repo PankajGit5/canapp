@@ -46,3 +46,9 @@
     transform: translateY(-50%);
   }
   
+  .txt-col {
+    color: #7b0fff;
+  }
+  .fw-un{
+    font-weight: 550;
+  }
