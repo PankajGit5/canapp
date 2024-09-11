@@ -102,3 +102,14 @@ body {
     border-radius: 9px;
     padding: 4px 16px;
   }
+  .sm-img{
+    width: 65px;
+    height: auto;
+    margin-right: 12px; /* Adjust spacing as needed */
+  }
+
+  .smx-img{
+    width: 45px;
+    height: auto;
+    margin-right: 12px; /* Adjust spacing as needed */
+  }
