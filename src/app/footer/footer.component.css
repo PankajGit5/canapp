@@ -1,0 +1,28 @@
+.footer,
+p {
+  color: #727271 !important;
+}
+
+.list-unstyled li a {
+  color: #727271;
+  font-size: 14px;
+  font-weight: 500;
+}
+.li-head {
+  color: #7b0fff;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.libord {
+  color: #727271;
+  font-weight: 600;
+}
+.fe-logo {
+  color: #727271;
+}
+small {
+  color: #727271;
+}
+.txt-col {
+  color: #7b0fff;
+}
