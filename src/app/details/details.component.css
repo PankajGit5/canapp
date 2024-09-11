@@ -43,3 +43,90 @@
   .fw-un{
     font-weight: 550;
   }
+  
+
+
+  .grid-container {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns of equal width */
+    grid-template-rows: repeat(2, 1fr);    /* Two rows of equal height */
+    /* gap: 10px;  */
+  }
+  .grid-container p{
+    color: #989494;
+    font-weight: 500;
+  }
+  .grid-item {
+    /* background-color: #f2f2f2; */
+    /* padding: 20px; */
+    /* text-align: left; */
+    border: 1px solid #ddd;
+    padding: 20px 30px;
+  }
+  
+  .question {
+    font-weight: bold;
+    margin-bottom: 10px; /* Space between question and answer */
+  }
+  
+  .answer {
+    color: #555; /* Different color for the answer text */
+  }
+  
+
+  .grid-item {
+    /* background-color: #f9f9f9; */
+    padding: 30px 20px;
+    text-align: left;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input-group {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .input-field {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .input-field:focus {
+    border-color: rgb(214, 206, 206);
+    outline: none;
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .small-button {
+    flex: 1;
+    padding: 7px 10px;
+    background-color: rgb(214, 206, 206);
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .small-button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+  }
+  
+  .small-button:active {
+    background-color: #004494;
+    transform: translateY(0);
+  }
+  
