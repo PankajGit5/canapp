@@ -4,7 +4,7 @@ body {
   .icon-img {
     width: 45px; /* Adjust the size as needed */
     height: auto;
-    margin-right: 8px; /* Space between the image and the text */
+    margin-right: 8px!important; 
   }
   
   .mini-card {
