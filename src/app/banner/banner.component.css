@@ -1,5 +1,5 @@
 .main-banner {
-    background-image: url(/main.jpg);
+    background-image: url("./main.jpg");
     background-size: cover; /* This ensures the image covers the entire banner */
     background-position: right;
     width: 100%;
